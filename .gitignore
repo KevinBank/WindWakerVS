@@ -4,12 +4,12 @@
 #
 
 /WindWaker/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/WindWaker/[Tt]emp/
+/WindWaker/[Oo]bj/
+/WindWaker/[Bb]uild/
+/WindWaker/[Bb]uilds/
+/WindWaker/[Ll]ogs/
+/WindWaker/[Mm]emoryCaptures/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
