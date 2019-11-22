@@ -5,6 +5,8 @@ using UnityEngine;
 public class BossBehaviour : MonoBehaviour
 {
     [SerializeField] private Transform pointer;
+    [SerializeField] private Transform followPosition;
+    [SerializeField] private float rotationSpeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,7 @@ public class BossBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, pointer.rotation, 1f);
+        transform.position = followPosition.position;
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, pointer.rotation, rotationSpeed);
     }
 }

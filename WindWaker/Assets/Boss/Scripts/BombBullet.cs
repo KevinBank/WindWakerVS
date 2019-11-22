@@ -18,6 +18,7 @@ public class BombBullet : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
+
         if (collision.transform.tag == "Player")
         {
             collision.gameObject.SendMessage("TakeDamage", 1);
