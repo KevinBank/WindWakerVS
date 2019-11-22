@@ -33,7 +33,7 @@ public class ZeldaController : MonoBehaviour
         transform.Translate(new Vector3(move.x, 0, move.y) * Time.deltaTime);
 
         Debug.Log(rb.velocity);
-
+        
         playerModel.transform.up = rb.velocity;
     }
 
