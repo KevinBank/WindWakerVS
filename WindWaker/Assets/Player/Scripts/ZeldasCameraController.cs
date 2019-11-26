@@ -29,17 +29,11 @@ public class ZeldasCameraController : MonoBehaviour
     {
         if(!freeLook && !lockedOn)
         {
-            //turn the player in the same direction as the camera
-            player.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
-
-            //moves the camera forwards when the player gets to far away
+            //moves the camera holder forwards when the player gets to far away
             if (Vector3.Distance(transform.position, playerHead.position) > maxDistance)
                 transform.Translate(Vector3.forward * cameraSpeed * Time.deltaTime);
             
-            //moves the camera backwards when the player gets to close
-            float posX = transform.position.x + cameraSpeed * Time.deltaTime;
-            float posY = transform.position.y;
-            float posZ = transform.position.z + cameraSpeed * Time.deltaTime;
+            //moves the camera holder backwards when the player gets to close
             if (Vector3.Distance(transform.position, playerHead.position) < minDistance)
                 transform.Translate(Vector3.forward * -cameraSpeed * Time.deltaTime);
 

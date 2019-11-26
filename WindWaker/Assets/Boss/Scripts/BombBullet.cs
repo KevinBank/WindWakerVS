@@ -4,25 +4,30 @@ using UnityEngine;
 
 public class BombBullet : MonoBehaviour
 {
-    [SerializeField] private GameObject zelda;
+    [SerializeField] private int speed;
+    [SerializeField] private GameObject particle;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Destroy(gameObject, 10f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
     private void OnCollisionEnter(Collision collision)
     {
-
-        if (collision.transform.tag == "Player")
+        if (collision.transform.tag == ConstClass.PLAYER)
         {
             collision.gameObject.SendMessage("TakeDamage", 1);
+            Instantiate(particle);
+            Destroy(gameObject);
         }
-        Destroy(this.gameObject);
+        if (collision.transform.tag == ConstClass.ENVIROMENT)
+        {
+            Destroy(gameObject);
+        }
     }
 }

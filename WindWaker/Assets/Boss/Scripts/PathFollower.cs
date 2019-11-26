@@ -15,6 +15,8 @@ using UnityEngine;
     [SerializeField] private float arrivalThreshold = 0.5f;
     [SerializeField] public int targetNumber = 0;
     [SerializeField] private float testLerp;
+    [SerializeField] protected bool waited = true;
+    [SerializeField] private float waitTime;
     private int tickedAmount;
 
     private void Start()
@@ -24,18 +26,23 @@ using UnityEngine;
 
     void Update()
     {
-        if (!targetWaypoint)
+        if (!targetWaypoint && waited)
         {
             targetWaypoint = path.GetNextWaypoint(targetNumber, this.gameObject);
-            //wait(5f);
+            waited = false;
             targetNumber++;
+            StartCoroutine(wait(waitTime));
         }
         //transform.LookAt(targetWaypoint.Position);
         //transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        transform.position = Vector3.Lerp(transform.position, targetWaypoint.Position, testLerp);
+        if(targetWaypoint != null)
+        {
+            transform.position = Vector3.Lerp(transform.position, targetWaypoint.Position, testLerp);
 
-        if (Vector3.Distance(transform.position, targetWaypoint.Position) <= arrivalThreshold)
-            targetWaypoint = null;
+            if (Vector3.Distance(transform.position, targetWaypoint.Position) <= arrivalThreshold)
+                targetWaypoint = null;
+        }
+            
     }
     public IEnumerator wait(float waitSecond)
     {
@@ -47,5 +54,7 @@ using UnityEngine;
 
         StopCoroutine(wait(0f));
         tickedAmount = 0;
+        waited = true;
+
     }
 }

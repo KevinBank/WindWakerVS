@@ -224,7 +224,7 @@ GameObject:
   m_Layer: 0
   m_Name: WaypointB
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 833989619}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Enviroment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -433,7 +433,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883385065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 6}
+  m_LocalPosition: {x: 0, y: 3, z: 8}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 1760040728}
@@ -454,7 +454,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointer: {fileID: 1760040728}
   followPosition: {fileID: 1335625562}
+  bullet: {fileID: 5802946280537646219, guid: 15b0be6283d726a48a2f1bbdeb011998, type: 3}
   rotationSpeed: 1
+  shootDelay: 1
+  tickedAmount: 0
+  waited: 1
 --- !u!1 &1012206148
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +520,7 @@ GameObject:
   - component: {fileID: 1042927884}
   m_Layer: 0
   m_Name: Lunk
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -607,7 +611,7 @@ GameObject:
   m_Layer: 0
   m_Name: WaypointA
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -686,6 +690,8 @@ MonoBehaviour:
   arrivalThreshold: 0.5
   targetNumber: 0
   testLerp: 0.025
+  waited: 1
+  waitTime: 10
 --- !u!1 &1452226705
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,7 +705,7 @@ GameObject:
   m_Layer: 0
   m_Name: WaypointC
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

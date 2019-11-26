@@ -10,6 +10,8 @@ public class ZeldaController : MonoBehaviour
     [SerializeField] private float dashSpeed;
     [SerializeField] private int dashDistance;
     [SerializeField] private GameObject playerModel;
+    [SerializeField] private GameObject cam;
+    [SerializeField] private float rotateSpeed;
 
     private PlayerInput inputHandler;
     private Vector2 inputMove;
@@ -17,6 +19,7 @@ public class ZeldaController : MonoBehaviour
 
     private void Awake()
     {
+        
         rb = GetComponent<Rigidbody>();
         inputHandler = new PlayerInput();
 
@@ -30,11 +33,12 @@ public class ZeldaController : MonoBehaviour
     void Update()
     {
         Vector2 move = new Vector2(inputMove.x, inputMove.y) * movementSpeed;
-        transform.Translate(new Vector3(move.x, 0, move.y) * Time.deltaTime);
 
-        Debug.Log(rb.velocity);
+        Vector3 newForward = cam.transform.rotation * new Vector3(move.x, 0, move.y);
+        transform.Translate(newForward * Time.deltaTime);
+        playerModel.transform.LookAt(playerModel.transform.position + newForward);
+
         
-        playerModel.transform.up = rb.velocity;
     }
 
     private void StartDash()
@@ -55,5 +59,16 @@ public class ZeldaController : MonoBehaviour
     private void OnEnable()
     {
         inputHandler.Gameplay.Enable();
+    }
+
+    void Rotate(float h, float v)
+    {
+        Debug.Log("hey");
+        Vector3 desiredDirection = Vector3.Normalize(new Vector3(h, 0f, v));
+        if (desiredDirection != Vector3.zero)
+        {
+            Quaternion rotation = Quaternion.LookRotation(desiredDirection);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotateSpeed * Time.deltaTime);
+        }
     }
 }
