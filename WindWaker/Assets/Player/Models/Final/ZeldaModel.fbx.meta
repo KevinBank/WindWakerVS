@@ -1,0 +1,1227 @@
+fileFormatVersion: 2
+guid: 3e6ec4401cbe89c449a372cb43595af4
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Hip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Hip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Shoulderblade
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Shoulderblade
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Toe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Toe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Thumb
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Thumbtip
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Fingers
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Fingertips
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Thumb
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Thumbtip
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Fingers
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Fingertips
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: ZeldaModel(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: -0.0075211045, z: 0.01227115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Link
+      parentName: group
+      position: {x: -0, y: 0.0075211045, z: -0.01227115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube6 1
+      parentName: pasted__Link
+      position: {x: -0, y: 0.06387594, z: 0.014738978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform20
+      parentName: pasted__pCube6 1
+      position: {x: -0, y: -0.06387594, z: -0.014738978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube9 1
+      parentName: pasted__Link
+      position: {x: -0.0000010110883, y: -0.010350168, z: 0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform10
+      parentName: pasted__pCube9 1
+      position: {x: 0.0000010110883, y: 0.010350168, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCylinder1
+      parentName: pasted__Link
+      position: {x: -0, y: -0.06470357, z: 0.0063841087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2299386, y: 1.2299386, z: 1.2299386}
+    - name: pasted__transform8
+      parentName: pasted__pCylinder1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCylinder2 1
+      parentName: pasted__Link
+      position: {x: -0, y: -0.06470357, z: 0.0063841087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2299386, y: 1.2299386, z: 1.2299386}
+    - name: pasted__transform12
+      parentName: pasted__pCylinder2 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCylinder3
+      parentName: pasted__Link
+      position: {x: -0, y: -0.06470357, z: 0.0063841087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1.23, y: 1.2299386, z: 1.2299386}
+    - name: pasted__transform9
+      parentName: pasted__pCylinder3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCylinder4
+      parentName: pasted__Link
+      position: {x: -0, y: -0.06470357, z: 0.0063841087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1.23, y: 1.2299386, z: 1.2299386}
+    - name: pasted__transform11
+      parentName: pasted__pCylinder4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__polySurface1 1
+      parentName: pasted__Link
+      position: {x: -0.09592727, y: 0.032526135, z: 0.004256288}
+      rotation: {x: 0, y: 0, z: 0.09124659, w: 0.99582833}
+      scale: {x: 1.456957, y: 1.1114942, z: 1.289715}
+    - name: pasted__transform18
+      parentName: pasted__polySurface1 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pSphere1 1
+      parentName: pasted__Link
+      position: {x: -0, y: -0.028001841, z: 0.03046914}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.15937567}
+    - name: pasted__transform16
+      parentName: pasted__pSphere1 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube1
+      parentName: group
+      position: {x: -0, y: -0.0021716254, z: -0.005460042}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 5.1461115, y: 9.965972, z: 4.8388886}
+    - name: pasted__transform5
+      parentName: pasted__pCube1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube2
+      parentName: group
+      position: {x: -0, y: 0.033888068, z: -0.0068546706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform3
+      parentName: pasted__pCube2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube3
+      parentName: group
+      position: {x: -0.09777007, y: 0.040646218, z: -0.008014862}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.414549, y: 1.2556255, z: 1.414549}
+    - name: pasted__transform1
+      parentName: pasted__pCube3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube4
+      parentName: group
+      position: {x: -0, y: 0.033888068, z: -0.0068546706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: pasted__transform2
+      parentName: pasted__pCube4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube5
+      parentName: group
+      position: {x: -0, y: -0.0021716254, z: -0.005460042}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -5.146, y: 9.965972, z: 4.8388886}
+    - name: pasted__transform4
+      parentName: pasted__pCube5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube6
+      parentName: group
+      position: {x: -0, y: 0.000041003226, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform21
+      parentName: pasted__pCube6
+      position: {x: -0, y: 0.007480101, z: -0.01227115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube7
+      parentName: group
+      position: {x: -0.0000010110883, y: -0.0024521062, z: -0.005527201}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform7
+      parentName: pasted__pCube7
+      position: {x: 0.0000010110883, y: 0.009973211, z: -0.006743949}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube8
+      parentName: group
+      position: {x: -0.0000010110883, y: -0.0024521062, z: -0.005527201}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: pasted__transform6
+      parentName: pasted__pCube8
+      position: {x: 0.0000010110883, y: 0.009973211, z: -0.006743949}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube9
+      parentName: group
+      position: {x: -0.0000010108947, y: -0.013427964, z: -0.005556259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform14
+      parentName: pasted__pCube9
+      position: {x: 0.0000010108947, y: 0.020949068, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube11
+      parentName: group
+      position: {x: -0.0000010108947, y: -0.033243652, z: -0.005556259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform15
+      parentName: pasted__pCube11
+      position: {x: 0.0000010108947, y: 0.04076476, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCylinder2
+      parentName: group
+      position: {x: 0.00000065571504, y: -0.09316613, z: 0.0019744781}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform13
+      parentName: pasted__pCylinder2
+      position: {x: -0.00000065571504, y: 0.100687236, z: -0.014245627}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__polySurface1
+      parentName: group
+      position: {x: -0.012109128, y: -0.033243652, z: -0.005556259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform19
+      parentName: pasted__polySurface1
+      position: {x: 0.012109128, y: 0.04076476, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pSphere1
+      parentName: group
+      position: {x: -0.0000010108947, y: -0.033243652, z: -0.005556259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform17
+      parentName: pasted__pSphere1
+      position: {x: 0.0000010108947, y: 0.04076476, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group1
+      parentName: ZeldaModel(Clone)
+      position: {x: 0.0051940917, y: 0.079350434, z: -0.007259723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__group1
+      parentName: group1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__Link
+      parentName: pasted__group1
+      position: {x: -0.0051940917, y: -0.079350434, z: 0.007259723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__pCube10
+      parentName: pasted__pasted__Link
+      position: {x: -0.0013102032, y: 0.10914271, z: 0.014500328}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 4.6697974, y: 1, z: 6.0109625}
+    - name: transform22
+      parentName: pasted__pasted__pCube10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__pCylinder5 1
+      parentName: pasted__pasted__Link
+      position: {x: 0.001761471, y: 0.105046205, z: -0.0300645}
+      rotation: {x: -0.5400508, y: 0, z: -0, w: 0.8416324}
+      scale: {x: 4.0646577, y: 4.171701, z: 4.0646577}
+    - name: transform23
+      parentName: pasted__pasted__pCylinder5 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left
+      parentName: ZeldaModel(Clone)
+      position: {x: 10.000999, y: -0.066830955, z: 0.0037673842}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Link
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube6
+      parentName: Link
+      position: {x: -0, y: 0.06387594, z: 0.014738978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform20
+      parentName: pCube6
+      position: {x: -0, y: -0.06387594, z: -0.014738978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube9 1
+      parentName: Link
+      position: {x: -0.0000010110883, y: -0.010350168, z: 0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform10
+      parentName: pCube9 1
+      position: {x: 0.0000010110883, y: 0.010350168, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube10
+      parentName: Link
+      position: {x: -0.0013102032, y: 0.10914271, z: 0.014500328}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 4.6697974, y: 1, z: 6.0109625}
+    - name: pCylinder1
+      parentName: Link
+      position: {x: -0, y: -0.06470357, z: 0.0063841087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2299386, y: 1.2299386, z: 1.2299386}
+    - name: transform8
+      parentName: pCylinder1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder2 1
+      parentName: Link
+      position: {x: -0, y: -0.06470357, z: 0.0063841087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2299386, y: 1.2299386, z: 1.2299386}
+    - name: transform12
+      parentName: pCylinder2 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder3
+      parentName: Link
+      position: {x: -0, y: -0.06470357, z: 0.0063841087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1.23, y: 1.2299386, z: 1.2299386}
+    - name: transform9
+      parentName: pCylinder3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder4
+      parentName: Link
+      position: {x: -0, y: -0.06470357, z: 0.0063841087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1.23, y: 1.2299386, z: 1.2299386}
+    - name: transform11
+      parentName: pCylinder4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder5
+      parentName: Link
+      position: {x: 0.001761471, y: 0.105046205, z: -0.0300645}
+      rotation: {x: -0.5400508, y: 0, z: -0, w: 0.8416324}
+      scale: {x: 4.0646577, y: 4.171701, z: 4.0646577}
+    - name: polySurface1 1
+      parentName: Link
+      position: {x: -0.09592727, y: 0.032526135, z: 0.004256288}
+      rotation: {x: 0, y: 0, z: 0.09124659, w: 0.99582833}
+      scale: {x: 1.456957, y: 1.1114942, z: 1.289715}
+    - name: transform18
+      parentName: polySurface1 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere1 1
+      parentName: Link
+      position: {x: -0, y: -0.028001841, z: 0.03046914}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.15937567}
+    - name: transform16
+      parentName: pSphere1 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Main
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: -0.12162401, z: 0.01}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LFoot_Controller
+      parentName: Main
+      position: {x: -0.016935855, y: -0.000056905745, z: 0.0051489016}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle1
+      parentName: LFoot_Controller
+      position: {x: -0.00007204413, y: 0.012521076, z: -0.0108739035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle2
+      parentName: LFoot_Controller
+      position: {x: -0.00021064877, y: 0.0012182808, z: -0.0031574357}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LToe_Controller
+      parentName: LFoot_Controller
+      position: {x: -0.000072035786, y: 0.011679191, z: 0.0140708685}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LKnee_Controller
+      parentName: Main
+      position: {x: -0.01778819, y: 0.034983974, z: 0.04029318}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis_Controller
+      parentName: Main
+      position: {x: -0, y: 0.07284938, z: -0.0015573144}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine_Controller
+      parentName: Pelvis_Controller
+      position: {x: -0.0000010110883, y: 0.03443585, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest_Controller
+      parentName: Spine_Controller
+      position: {x: -0, y: 0.042307794, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LShoulder_Controller
+      parentName: Chest_Controller
+      position: {x: -0.024522189, y: 0.0055296263, z: 0.00010596754}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LElbow_Controller
+      parentName: LShoulder_Controller
+      position: {x: -0.034099814, y: -0.0002935947, z: -0.001243956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LWrist_Controller
+      parentName: LElbow_Controller
+      position: {x: -0.033725973, y: 0.0005803704, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LFingers_Controller
+      parentName: LWrist_Controller
+      position: {x: -0.011156015, y: -0.00006448507, z: -0.0045825127}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LThumb_Controller
+      parentName: LWrist_Controller
+      position: {x: -0.009504604, y: -0.0042607686, z: 0.0063535827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck_Controller
+      parentName: Chest_Controller
+      position: {x: 7.7037196e-36, y: 0.015848458, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RShoulder_Controller
+      parentName: Chest_Controller
+      position: {x: 0.024522189, y: 0.0055296263, z: 0.00010596754}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RElbow_Controller
+      parentName: RShoulder_Controller
+      position: {x: 0.034099814, y: -0.0002935947, z: -0.001243956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RWrist_Controller
+      parentName: RElbow_Controller
+      position: {x: 0.033725895, y: 0.000580399, z: 0}
+      rotation: {x: 0, y: -0, z: -0.0151097085, w: 0.99988586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RFingers_Controller
+      parentName: RWrist_Controller
+      position: {x: 0.011155901, y: -0.00006449938, z: -0.0019487399}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RThumb_Controller
+      parentName: RWrist_Controller
+      position: {x: 0.010049208, y: -0.0049972674, z: 0.008344263}
+      rotation: {x: 4.7235286e-19, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RFoot_Controller
+      parentName: Main
+      position: {x: 0.016935855, y: -0.0000758157, z: 0.0051489016}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle3
+      parentName: RFoot_Controller
+      position: {x: 0.000070045, y: 0.012539225, z: -0.010873949}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle4
+      parentName: RFoot_Controller
+      position: {x: 0.00020901918, y: 0.0012371158, z: -0.0031566077}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RKnee_Controller
+      parentName: RFoot_Controller
+      position: {x: 0.0008523358, y: 0.035040878, z: 0.035144273}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RToe_Controller
+      parentName: RFoot_Controller
+      position: {x: 0.000070047376, y: 0.011699895, z: 0.014072036}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pasted__pCylinder5
+      parentName: ZeldaModel(Clone)
+      position: {x: -0.000530982, y: 0.011942723, z: -0.007259723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: pasted__pasted__pCylinder5
+      position: {x: 0.000530982, y: -0.011942723, z: 0.007259723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform25
+      parentName: polySurface2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface3
+      parentName: pasted__pasted__pCylinder5
+      position: {x: 0.000530982, y: -0.011942723, z: 0.007259723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform26
+      parentName: polySurface3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface4 1
+      parentName: pasted__pasted__pCylinder5
+      position: {x: 0.000530982, y: -0.011942723, z: 0.007259723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform27
+      parentName: polySurface4 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform24
+      parentName: pasted__pasted__pCylinder5
+      position: {x: 0.000530982, y: -0.011942723, z: 0.007259723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube1
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: -0.00969273, z: 0.006811108}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 5.1461115, y: 9.965972, z: 4.8388886}
+    - name: transform5
+      parentName: pCube1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube2
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: 0.026366962, z: 0.0054164794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform3
+      parentName: pCube2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube3
+      parentName: ZeldaModel(Clone)
+      position: {x: -0.09777007, y: 0.033125114, z: 0.004256288}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.414549, y: 1.2556255, z: 1.414549}
+    - name: transform1
+      parentName: pCube3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube4
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: 0.026366962, z: 0.0054164794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: transform2
+      parentName: pCube4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube5
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: -0.00969273, z: 0.006811108}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -5.146, y: 9.965972, z: 4.8388886}
+    - name: transform4
+      parentName: pCube5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube7
+      parentName: ZeldaModel(Clone)
+      position: {x: -0.0000010110883, y: -0.009973211, z: 0.006743949}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform7
+      parentName: pCube7
+      position: {x: 0.0000010110883, y: 0.009973211, z: -0.006743949}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube8
+      parentName: ZeldaModel(Clone)
+      position: {x: -0.0000010110883, y: -0.009973211, z: 0.006743949}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: transform6
+      parentName: pCube8
+      position: {x: 0.0000010110883, y: 0.009973211, z: -0.006743949}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube9
+      parentName: ZeldaModel(Clone)
+      position: {x: -0.0000010108947, y: -0.020949068, z: 0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform14
+      parentName: pCube9
+      position: {x: 0.0000010108947, y: 0.020949068, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube11
+      parentName: ZeldaModel(Clone)
+      position: {x: -0.0000010108947, y: -0.04076476, z: 0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform15
+      parentName: pCube11
+      position: {x: 0.0000010108947, y: 0.04076476, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder2
+      parentName: ZeldaModel(Clone)
+      position: {x: 0.00000065571504, y: -0.100687236, z: 0.014245627}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform13
+      parentName: pCylinder2
+      position: {x: -0.00000065571504, y: 0.100687236, z: -0.014245627}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: ZeldaModel(Clone)
+      position: {x: -0.0000010110883, y: 0.073752075, z: 0.0059193913}
+      rotation: {x: 0.03778066, y: 0.20559475, z: 0.17674357, w: 0.9618031}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Hip
+      parentName: Pelvis
+      position: {x: -0.016464544, y: 0.00037046513, z: -0.006953066}
+      rotation: {x: 0.6930899, y: 0.48152483, z: -0.30269927, w: -0.44286954}
+      scale: {x: 1.0000008, y: 1.0000011, z: 1.0000007}
+    - name: L_Knee
+      parentName: L_Hip
+      position: {x: -0.03236865, y: -0.004322833, z: 4.1907677e-10}
+      rotation: {x: -0.9927407, y: 0.12027496, z: -0.000000074505806, w: 0.000000007450581}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000001}
+    - name: L_Ankle
+      parentName: L_Knee
+      position: {x: -0.023270333, y: -0.000003895244, z: -5.396318e-20}
+      rotation: {x: 0.0000000022393134, y: -0.000000013260747, z: -0.3451008, w: 0.9385657}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: L_Foot
+      parentName: L_Ankle
+      position: {x: -0.013546911, y: 0.0019494743, z: -2.220446e-18}
+      rotation: {x: 0.0043317396, y: 0.0074373162, z: -0.5288908, w: 0.8486463}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: L_Toe
+      parentName: L_Foot
+      position: {x: -0.017222935, y: 0, z: 0}
+      rotation: {x: -0.007629278, y: -0.7070656, z: -0.0076293666, w: 0.70706564}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: R_Hip
+      parentName: Pelvis
+      position: {x: 0.0125487065, y: -0.010665338, z: 0.006953074}
+      rotation: {x: 0.47642937, y: -0.68522465, z: -0.4545684, w: 0.31120715}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: R_Knee
+      parentName: R_Hip
+      position: {x: 0.03236857, y: 0.004322832, z: 9.4210164e-18}
+      rotation: {x: -0.99274915, y: 0.120205045, z: 0.000000074505806, w: 0.000000029802322}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000007}
+    - name: R_Ankle
+      parentName: R_Knee
+      position: {x: 0.023270436, y: 0.0000038900084, z: 2.220446e-18}
+      rotation: {x: 0.000000049707094, y: -0.0000000360781, z: 0.34510076, w: -0.9385657}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: R_Foot
+      parentName: R_Ankle
+      position: {x: 0.013546841, y: -0.0019494477, z: 4.108154e-11}
+      rotation: {x: -0.848668, y: 0.5288556, z: 0.0074565923, w: 0.004342537}
+      scale: {x: 1.0000012, y: 1.0000005, z: 1.0000017}
+    - name: R_Toe
+      parentName: R_Foot
+      position: {x: 0.017223012, y: 0, z: 0}
+      rotation: {x: 0.007629274, y: 0.7070656, z: 0.0076293335, w: -0.7070657}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000002}
+    - name: Spine
+      parentName: Pelvis
+      position: {x: 0.011251296, y: 0.03248158, z: 0.0023027754}
+      rotation: {x: -0.5541756, y: 0.8057251, z: -0.17195302, w: 0.11886438}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.000001}
+    - name: Chest
+      parentName: Spine
+      position: {x: -0.042208944, y: 9.480263e-18, z: -5.5511148e-18}
+      rotation: {x: 0.000000014901159, y: -0.000000014901159, z: -0.0011737345, w: 0.99999934}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.000001}
+    - name: L_Shoulderblade
+      parentName: Chest
+      position: {x: 0.003247178, y: 0.013262078, z: -0.0002909255}
+      rotation: {x: 0.79145586, y: -0.6112089, z: -0.004169382, w: 0.001990734}
+      scale: {x: 0.99999934, y: 0.99999964, z: 0.99999934}
+    - name: L_Shoulder
+      parentName: L_Shoulderblade
+      position: {x: -0.014374654, y: 0.0008728792, z: -0.00029543578}
+      rotation: {x: 0.0036684934, y: 0.005285548, z: 0.13749324, w: 0.99048185}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: L_Elbow
+      parentName: L_Shoulder
+      position: {x: -0.03405993, y: -0.0016746444, z: -0.001243956}
+      rotation: {x: 0.0000000054445928, y: -0.000000015580474, z: 0.011655626, w: 0.9999321}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+    - name: L_Wrist
+      parentName: L_Elbow
+      position: {x: -0.033730965, y: -1.1546319e-16, z: -2.8865798e-17}
+      rotation: {x: -0.000034137604, y: 0.0059752753, z: 0.011492879, w: 0.99991614}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: L_Fingers
+      parentName: L_Wrist
+      position: {x: -0.011132113, y: -0.00000014381291, z: -0.0020819223}
+      rotation: {x: 0.0017231646, y: -0.017131707, z: 0.04307592, w: 0.9989235}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: L_Fingertips
+      parentName: L_Fingers
+      position: {x: -0.010898639, y: -1.8910912e-17, z: 5.104654e-19}
+      rotation: {x: -0.000000004540197, y: 0.000000014435498, z: -0.18046872, w: 0.98358077}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: L_Thumb
+      parentName: L_Wrist
+      position: {x: -0.009604321, y: -0.004205328, z: 0.006239544}
+      rotation: {x: -0.07335495, y: 0.28364027, z: 0.009401372, w: 0.9560748}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: L_Thumbtip
+      parentName: L_Thumb
+      position: {x: -0.005713757, y: -0.00033891102, z: 0.000268272}
+      rotation: {x: -0.000000028754577, y: 0.000000011175868, z: -0.16481763, w: 0.9863241}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0.015925147, y: 6.2391065e-16, z: -3.330669e-18}
+      rotation: {x: 0.99999774, y: -0.0021367415, z: 0.000000007482489, w: 2.3021137e-11}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999934}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.023185343, y: -1.2941418e-16, z: 0.0040806085}
+      rotation: {x: -0.000000026323281, y: 0.000000002213104, z: 0.70559424, w: 0.70861614}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+    - name: R_Shoulderblade
+      parentName: Chest
+      position: {x: 0.0032471295, y: -0.01326203, z: -0.00029092847}
+      rotation: {x: 0.014794913, y: 0.03829443, z: 0.7875883, w: -0.61483276}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1}
+    - name: R_Shoulder
+      parentName: R_Shoulderblade
+      position: {x: 0.014212946, y: -0.0009837964, z: -0.002338333}
+      rotation: {x: -0.013832698, y: 0.05742045, z: 0.12836319, w: 0.9899669}
+      scale: {x: 0.9999999, y: 1.0000012, z: 1.0000007}
+    - name: R_Elbow
+      parentName: R_Shoulder
+      position: {x: 0.03405993, y: 0.0016746448, z: 0.0012439556}
+      rotation: {x: 0.00000002294615, y: -0.000000024139512, z: 0.0116555365, w: 0.9999321}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000004}
+    - name: R_Wrist
+      parentName: R_Elbow
+      position: {x: 0.03373022, y: -0.000000021915811, z: -5.0671634e-10}
+      rotation: {x: -0.0001244643, y: 0.0059741028, z: 0.02659994, w: 0.99962837}
+      scale: {x: 1.0000002, y: 1.0000012, z: 1.000001}
+    - name: R_Fingers
+      parentName: R_Wrist
+      position: {x: 0.011132002, y: 0.00000015884038, z: 0.0020819195}
+      rotation: {x: 0.00050148816, y: -0.009961235, z: 0.030837126, w: 0.9994747}
+      scale: {x: 0.9999998, y: 1.0000011, z: 1.0000012}
+    - name: R_Fingertips
+      parentName: R_Fingers
+      position: {x: 0.010898883, y: -0.00000013135404, z: 1.015854e-16}
+      rotation: {x: 0.000000006286426, y: -0.000000041443844, z: -0.18046872, w: 0.9835807}
+      scale: {x: 1.0000005, y: 0.99999976, z: 1.0000004}
+    - name: R_Thumb
+      parentName: R_Wrist
+      position: {x: 0.010147354, y: 0.0049387, z: -0.0057493458}
+      rotation: {x: -0.0767153, y: 0.29661036, z: -0.0008337584, w: 0.9519119}
+      scale: {x: 0.99999976, y: 1.0000015, z: 1.0000012}
+    - name: R_Thumbtip
+      parentName: R_Thumb
+      position: {x: 0.005713302, y: 0.00033901204, z: -0.0002683}
+      rotation: {x: 0.000000005238687, y: -0.0000000018626443, z: -0.16481759, w: 0.9863241}
+      scale: {x: 1.0000005, y: 0.9999998, z: 1.0000011}
+    - name: polySurface1
+      parentName: ZeldaModel(Clone)
+      position: {x: -0.012109128, y: -0.04076476, z: 0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform19
+      parentName: polySurface1
+      position: {x: 0.012109128, y: 0.04076476, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface4
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: 0.0017354441, z: 0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pCube4 1
+      parentName: polySurface4
+      position: {x: -0, y: -0.003608939, z: -0.024847534}
+      rotation: {x: -0.06161368, y: 0.9979441, z: 0.017611919, w: -0.0010873707}
+      scale: {x: 1.5280561, y: 1.5280561, z: 1.04742}
+    - name: transform29
+      parentName: pasted__pCube4 1
+      position: {x: -0, y: 0.005039789, z: 0.00000014726814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform28
+      parentName: polySurface4
+      position: {x: -0, y: -0.0017354441, z: -0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface4_pasted__pCube4
+      parentName: ZeldaModel(Clone)
+      position: {x: 0.00034810542, y: 0.0012922478, z: 0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6 1
+      parentName: polySurface4_pasted__pCube4
+      position: {x: -0.00034810542, y: -0.0012922478, z: -0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform33
+      parentName: polySurface6 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface7
+      parentName: polySurface4_pasted__pCube4
+      position: {x: -0.00034810542, y: -0.0012922478, z: -0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform32
+      parentName: polySurface7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface8
+      parentName: polySurface4_pasted__pCube4
+      position: {x: -0.00034810542, y: -0.0012922478, z: -0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform31
+      parentName: polySurface8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform30
+      parentName: polySurface4_pasted__pCube4
+      position: {x: -0.00034810542, y: -0.0012922478, z: -0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: 0.0017354441, z: 0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface9 1
+      parentName: polySurface6
+      position: {x: -0, y: -0.0017354441, z: -0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform37
+      parentName: polySurface9 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface10
+      parentName: polySurface6
+      position: {x: -0, y: -0.0017354441, z: -0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform36
+      parentName: polySurface10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface11
+      parentName: polySurface6
+      position: {x: -0, y: -0.0017354441, z: -0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform35
+      parentName: polySurface11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform34
+      parentName: polySurface6
+      position: {x: -0, y: -0.0017354441, z: -0.0039400435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface9
+      parentName: ZeldaModel(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere1
+      parentName: ZeldaModel(Clone)
+      position: {x: -0.0000010108947, y: -0.04076476, z: 0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform17
+      parentName: pSphere1
+      position: {x: 0.0000010108947, y: 0.04076476, z: -0.006714891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
